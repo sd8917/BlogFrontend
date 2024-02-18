@@ -89,6 +89,10 @@ const Login = () => {
             padding={3}
             textAlign="center"
           >
+             <img
+              src="./social.png"
+              alt="icon"
+            />
             Login
           </Typography>
 

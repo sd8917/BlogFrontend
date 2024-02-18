@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <Paper
         sx={{
-          marginTop: "calc(10% + 60px)",
+          marginTop: "calc(20% + 60px)",
           width: "100%",
           background: "#3C76D2",
         }}

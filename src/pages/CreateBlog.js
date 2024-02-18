@@ -11,7 +11,7 @@ import AlertContainer from "../components/common/AlertContainer";
 
 const CreateBlog = () => {
   const navigate = useNavigate();
-
+  
   const [inputs, setInputs] = useState({
     title: "",
     content: "",
@@ -127,9 +127,9 @@ const CreateBlog = () => {
                 minRows={25}
                 sx={{ width: "100%", marginTop: 3 }}
                 required
-              />
+                            />
             </Grid>
-            <Grid item xs={12}>
+                      <Grid item xs={12}>
               <InputLabel sx={{ marginBottom: 1 }}>Video URL </InputLabel>
               <TextField
                 placeholder="Enter the Vide URL"
